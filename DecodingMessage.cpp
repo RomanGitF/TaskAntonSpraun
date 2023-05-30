@@ -81,7 +81,6 @@ string DecodingCin(){
 	while (!enter) {
 		if (sign == 10) {
 			enter = true;}
-
 		if(isdigit(sign)) {
 			number *= 10;
 			number += sign-'0';
